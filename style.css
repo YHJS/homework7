@@ -5,9 +5,9 @@
      background: url("img/sky_dark.png") right no-repeat;
      width: 1000px;
      height: 600px;
-    -webkit-animation: changeSky 20s linear 0s infinite normal;
-    -moz-animation: changeSky 20s linear 0s infinite normal;
-    -o-animation: changeSky 20s linear 0s infinite normal;
+    -webkit-animation: changeSky 20s linear 2s infinite normal;
+    -moz-animation: changeSky 20s linear 2s infinite normal;
+    -o-animation: changeSky 20s linear 2s infinite normal;
     overflow: hidden;
  }
 
@@ -28,9 +28,9 @@
      left: 200px;
      width: 150px;
      height: 150px;
-    -webkit-animation: changeDay 20s linear 0s infinite normal;
-    -moz-animation: changeDay 20s linear 0s infinite normal;
-    -o-animation: changeDay 20s linear 0s infinite normal;
+    -webkit-animation: changeDay 20s linear 2s infinite normal;
+    -moz-animation: changeDay 20s linear 2s infinite normal;
+    -o-animation: changeDay 20s linear 2s infinite normal;
  }
 
 .moon {
@@ -41,9 +41,9 @@
     background: url("img/moon.png") center/cover no-repeat;
     width: 70px;
     height: 70px;
-    -webkit-animation: changeMoon 20s linear 0s infinite normal;
-    -moz-animation: changeMoon 20s linear 0s infinite normal;
-    -o-animation: changeMoon 20s linear 0s infinite normal;
+    -webkit-animation: changeMoon 20s linear 2s infinite normal;
+    -moz-animation: changeMoon 20s linear 2s infinite normal;
+    -o-animation: changeMoon 20s linear 2s infinite normal;
 }
 
 @-webkit-keyframes changeDay {
